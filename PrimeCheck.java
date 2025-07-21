@@ -11,7 +11,7 @@ public class PrimeCheck {
 
         int num = scanner.nextInt();
 
-        if(num%2!=0)System.out.println("The Following Number Is Prime");
+        if(num/2!=0)System.out.println("The Following Number Is Prime");
         else System.out.println("The Following Number Is Not A Prime");
 
         scanner.close();
